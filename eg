@@ -13,9 +13,9 @@ end)
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
     local lowerMsg = msg:lower()
     
-    if lowerMsg == ".disableplrjoin" then
+    if lowerMsg == ".dpj" then
         playerJoinEnabled = false
-    elseif lowerMsg == ".enableplrjoin" then
+    elseif lowerMsg == ".epj" then
         playerJoinEnabled = true
     elseif lowerMsg == ".credits" then
         local message = "h \n \n \n \n \n \n  Vernam was coded by user. >Vernam.lua  -------------"
